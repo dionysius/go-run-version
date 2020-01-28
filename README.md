@@ -17,7 +17,7 @@ Current overview
 * bcf6244 the initial commit
 ```
 
-Depending on if you're in a repo with go.mod or not, play around with these and see how it behaves:
+Depending on if you're in a repo with go.mod or not, play around with these and see how it behaves. Yes, these are to show what works and what not - you might get different error messages for different reasons.
 
 ---
 
