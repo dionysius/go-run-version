@@ -4,8 +4,8 @@ import "fmt"
 
 const (
 	branch  = ""
-	tag     = ""
-	comment = "since I'm now on v2, I shouldn't be used"
+	tag     = "v2.0.0"
+	comment = "opening third branch"
 )
 
 func main() {
