@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 const (
-	branch  = ""
-	tag     = "v0.2.0"
-	comment = "I'm on the second branch, with tag v0.2.0 but not holding the branch tag"
+	branch  = "second"
+	tag     = "v0.2.1"
+	comment = "both branch tag and tag v0.2.1"
 )
 
 func main() {
