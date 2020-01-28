@@ -19,17 +19,35 @@ Current overview - remember, the last commit on branch master will always be mis
 
 Depending on if you're in a repo with go.mod or not, play around with these and see how it behaves:
 
+---
+
 - `go run github.com/dionysius/go-run-version`
 - `go run github.com/dionysius/go-run-version/v2`
+- `go run github.com/dionysius/go-run-version@v2`
 - `go run github.com/dionysius/go-run-version@master`
 - `go run github.com/dionysius/go-run-version@v0.1.0`
+- `go run github.com/dionysius/go-run-version@v0.2.1`
 - `go run github.com/dionysius/go-run-version@second`
-- ...
+
+---
+
 - `go get github.com/dionysius/go-run-version`
+  - and after that what offers `go run github.com/dionysius/go-run-version`
 - `go get github.com/dionysius/go-run-version/v2`
   - and after that, whats the difference between
   - `go run github.com/dionysius/go-run-version`
   - `go run github.com/dionysius/go-run-version/v2`
+- `go get github.com/dionysius/go-run-version@v2`
+  - and after that, whats the difference between
+  - `go run github.com/dionysius/go-run-version`
+  - `go run github.com/dionysius/go-run-version/v2`
 - `go get github.com/dionysius/go-run-version@master`
+  - and after that what offers `go run github.com/dionysius/go-run-version`
 - `go get github.com/dionysius/go-run-version@v0.1.0`
+  - and after that what offers `go run github.com/dionysius/go-run-version`
+- `go get github.com/dionysius/go-run-version@v0.2.1`
+  - and after that what offers `go run github.com/dionysius/go-run-version`
 - `go get github.com/dionysius/go-run-version@second`
+  - and after that what offers `go run github.com/dionysius/go-run-version`
+
+---
