@@ -4,8 +4,8 @@ import "fmt"
 
 const (
 	branch  = ""
-	tag     = "v0.1.0"
-	comment = ""
+	tag     = ""
+	comment = "A yeah, forgot, if you go get with @master, you should get me, I should be the strange go preversion v0.1.1-0"
 )
 
 func main() {
