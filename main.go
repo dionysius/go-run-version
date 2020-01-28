@@ -4,8 +4,8 @@ import "fmt"
 
 const (
 	branch  = ""
-	tag     = ""
-	comment = "I'm the first commit, without tag or currently on a branch (at the commit time obviously branch master, but this branch will move once I continue)"
+	tag     = "v0.1.0"
+	comment = ""
 )
 
 func main() {
