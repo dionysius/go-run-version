@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 const (
-	branch  = ""
-	tag     = "v2.0.0"
-	comment = "opening third branch"
+	branch  = "third"
+	tag     = ""
+	comment = "ending third branch, one commit after v2.0.0"
 )
 
 func main() {
